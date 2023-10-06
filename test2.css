@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital@1&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+font-family: 'Ubuntu', sans-serif; 
+padding: 0;
+margin: 0;
+}
+a{
+color: white;
+text-decoration: none;
+
+}
+body{
+    background-image: linear-gradient(to right, #01022d , #000);
+    height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+ .container{
+    background-image: 
+    linear-gradient(to right , #01022de5 30%, #000000a7),
+    url(download.webp)
+    ;
+    background-position: center;
+    width: 90%;
+    height: 520px;
+
+ }
+ .container:hover{
+    background-image: 
+    linear-gradient(to right , #01022de5 30%, transparent),
+    url(download.webp)
+    
+  ;
+
+ }
+ header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 15px;
+margin: 10px;
+
+ }
+ .logo{
+font-size: 30px;
+font-weight: 500;
+ }
+.logo:hover{
+color: goldenrod;
+}
+ul{
+   width: 60%;
+   list-style: none;
+   display: flex;
+   justify-content: space-evenly;
+}
+ul a{
+   
+}
+ul a:hover{
+   color: goldenrod;
+
+}
+.content{
+   color: aliceblue;
+   width: 50%;
+   margin-top: 50px;
+   padding: 30px;
+}
+.content h2{
+   font-size: 100px;
+
+}
+.content p{
+letter-spacing: 2px;
+width: 350px;
+padding: 30px 0;
+}
+.content button{
+   font-size: 30px;
+   padding: 6px 10px;
+   border-radius: 10px;
+border: 2px solid transparent;
+cursor: pointer;
+}
+.content button:hover{
+   background-color: transparent;
+   border-color: aliceblue;
+color: aliceblue;
+
+}
